@@ -12,8 +12,9 @@ function Signup() {
     setMessage("");
     setError(false);
 
+ const RENDER_API_URL = "https://stock-market-zerodha.onrender.com";
     try {
-      const res = await fetch("http://localhost:3002/signup", {
+      const res = await fetch(`${RENDER_API_URL}/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: username, email, password }),
