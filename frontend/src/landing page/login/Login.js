@@ -30,7 +30,7 @@ function Login() {
 
 // ******************************************************
  
- window.location.href = 'https://remarkable-mandazi-8b8cd0.netlify.app/dashboard';  // ******************************************************
+ window.location.href = 'https://dashboard-zd.netlify.app/dashboard';  // ******************************************************
 
         // redirect to dashboard or homepage
         // navigate("/dashboard");
